@@ -23,7 +23,7 @@ def test_new_lines_between_numbers():
 
 def test_custom_delimiter():
     calc = StringCalculator()
-    assert calc.add("//;\n1;2") == 3
+    assert calc.add("//|\n1|2|3") == 6
 
 def test_negative_number_throws_exception():
     calc = StringCalculator()
