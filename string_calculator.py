@@ -7,7 +7,7 @@ class StringCalculator:
         delimiter = ","
         if numbers.startswith("//"):
             parts = numbers.split("\n", 1)
-            delimiter = parts[0][2:]  # Get delimiter after //
+            delimiter = parts[0][2:]  # Getting the delimiter after //
             numbers = parts[1]
             
         # Replace newlines with delimiter and split
